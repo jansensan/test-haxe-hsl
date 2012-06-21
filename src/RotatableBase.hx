@@ -30,8 +30,6 @@ class RotatableBase extends Sprite
 		
 		currentRotation = 0;
 		
-		var size = 160;
-		
 		shape = new Shape();
 		shape.graphics.beginFill(0xcc0000, 1);
 		shape.graphics.drawRect	(	SIZE * -0.5, 

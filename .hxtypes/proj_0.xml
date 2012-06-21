@@ -628,7 +628,7 @@
 		<isRightKeyDown><e path="Bool"/></isRightKeyDown>
 		<currentRotation><c path="Float"/></currentRotation>
 		<init public="1" set="method" line="26"><f a=""><e path="Void"/></f></init>
-		<update public="1" set="method" line="47"><f a=""><e path="Void"/></f></update>
+		<update public="1" set="method" line="45"><f a=""><e path="Void"/></f></update>
 		<new public="1" set="method" line="20"><f a=""><e path="Void"/></f></new>
 	</class>
 	<class path="RotatableWithEvents" params="" file="src/RotatableWithEvents.hx">
