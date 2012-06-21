@@ -9,7 +9,6 @@
 package;
 
 
-import flash.display.Stage;
 import flash.display.Sprite;
 import flash.geom.Rectangle;
 

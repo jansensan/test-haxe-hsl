@@ -1,5 +1,5 @@
 <haxe>
-	<class path="Array" params="T" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/Array.hx" extern="1">
+	<class path="Array" params="T" file="/usr/lib/haxe/std/Array.hx" extern="1">
 		<length public="1" set="null">
 			<c path="Int"/>
 			<haxe_doc>
@@ -151,11 +151,11 @@
 	is less memory and CPU consuming, unless you really need indexed access.
 </haxe_doc>
 	</class>
-	<class path="Class" params="T" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/Class.hx" extern="1"><haxe_doc>
+	<class path="Class" params="T" file="/usr/lib/haxe/std/Class.hx" extern="1"><haxe_doc>
 	An abstract type that represents a Class.
 	See [Type] for the haXe Reflection API.
 </haxe_doc></class>
-	<class path="IntIter" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/IntIter.hx">
+	<class path="IntIter" params="" file="/usr/lib/haxe/std/IntIter.hx">
 		<min><c path="Int"/></min>
 		<max><c path="Int"/></max>
 		<hasNext public="1" set="method" line="46">
@@ -185,7 +185,7 @@
 	Integer iterator. Used for interval implementation.
 </haxe_doc>
 	</class>
-	<class path="flash.geom.Rectangle" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/geom/Rectangle.hx" extern="1">
+	<class path="flash.geom.Rectangle" params="" file="/usr/lib/haxe/std/flash/geom/Rectangle.hx" extern="1">
 		<bottom public="1"><c path="Float"/></bottom>
 		<bottomRight public="1"><c path="flash.geom.Point"/></bottomRight>
 		<height public="1"><c path="Float"/></height>
@@ -268,13 +268,13 @@
 </f></new>
 	</class>
 	<class path="Main" params="" file="src/Main.hx">
-		<VIEWPORT get="inline" set="null" line="19" static="1"><c path="flash.geom.Rectangle"/></VIEWPORT>
-		<HALF get="inline" set="null" line="20" static="1"><c path="Float"/></HALF>
-		<main public="1" set="method" line="43" static="1"><f a=""><e path="Void"/></f></main>
+		<VIEWPORT get="inline" set="null" line="22" static="1"><c path="flash.geom.Rectangle"/></VIEWPORT>
+		<HALF get="inline" set="null" line="25" static="1"><c path="Float"/></HALF>
+		<main public="1" set="method" line="34" static="1"><f a=""><e path="Void"/></f></main>
 		<root><c path="flash.display.Sprite"/></root>
-		<new public="1" set="method" line="26"><f a=""><e path="Void"/></f></new>
+		<new public="1" set="method" line="27"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="Math" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/Math.hx" extern="1">
+	<class path="Math" params="" file="/usr/lib/haxe/std/Math.hx" extern="1">
 		<PI public="1" set="null" static="1"><c path="Float"/></PI>
 		<NaN public="1" set="null" static="1"><c path="Float"/></NaN>
 		<NEGATIVE_INFINITY public="1" set="null" static="1"><c path="Float"/></NEGATIVE_INFINITY>
@@ -364,7 +364,7 @@
 	This class defines mathematical functions and constants.
 </haxe_doc>
 	</class>
-	<class path="flash.events.IEventDispatcher" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/events/IEventDispatcher.hx" extern="1" interface="1">
+	<class path="flash.events.IEventDispatcher" params="" file="/usr/lib/haxe/std/flash/events/IEventDispatcher.hx" extern="1" interface="1">
 		<addEventListener public="1" set="method"><f a="type:listener:?useCapture:?priority:?useWeakReference">
 	<c path="String"/>
 	<f a="">
@@ -398,7 +398,7 @@
 	<e path="Bool"/>
 </f></willTrigger>
 	</class>
-	<class path="flash.events.EventDispatcher" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/events/EventDispatcher.hx" extern="1">
+	<class path="flash.events.EventDispatcher" params="" file="/usr/lib/haxe/std/flash/events/EventDispatcher.hx" extern="1">
 		<implements path="flash.events.IEventDispatcher"/>
 		<addEventListener public="1" set="method"><f a="type:listener:?useCapture:?priority:?useWeakReference">
 	<c path="String"/>
@@ -438,8 +438,8 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.display.IBitmapDrawable" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/IBitmapDrawable.hx" extern="1" interface="1"/>
-	<class path="flash.display.DisplayObject" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/DisplayObject.hx" extern="1">
+	<class path="flash.display.IBitmapDrawable" params="" file="/usr/lib/haxe/std/flash/display/IBitmapDrawable.hx" extern="1" interface="1"/>
+	<class path="flash.display.DisplayObject" params="" file="/usr/lib/haxe/std/flash/display/DisplayObject.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<implements path="flash.display.IBitmapDrawable"/>
 		<accessibilityProperties public="1"><c path="flash.accessibility.AccessibilityProperties"/></accessibilityProperties>
@@ -508,7 +508,7 @@
 	<c path="flash.geom.Point"/>
 </f></localToGlobal>
 	</class>
-	<class path="flash.display.InteractiveObject" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/InteractiveObject.hx" extern="1">
+	<class path="flash.display.InteractiveObject" params="" file="/usr/lib/haxe/std/flash/display/InteractiveObject.hx" extern="1">
 		<extends path="flash.display.DisplayObject"/>
 		<accessibilityImplementation public="1"><c path="flash.accessibility.AccessibilityImplementation"/></accessibilityImplementation>
 		<contextMenu public="1"><c path="flash.ui.ContextMenu"/></contextMenu>
@@ -522,7 +522,7 @@
 		<requestSoftKeyboard public="1"><f a=""><e path="Bool"/></f></requestSoftKeyboard>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.display.DisplayObjectContainer" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/DisplayObjectContainer.hx" extern="1">
+	<class path="flash.display.DisplayObjectContainer" params="" file="/usr/lib/haxe/std/flash/display/DisplayObjectContainer.hx" extern="1">
 		<extends path="flash.display.InteractiveObject"/>
 		<mouseChildren public="1"><e path="Bool"/></mouseChildren>
 		<numChildren public="1" set="null"><c path="Int"/></numChildren>
@@ -591,7 +591,7 @@
 </f></swapChildrenAt>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.display.Sprite" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/Sprite.hx" extern="1">
+	<class path="flash.display.Sprite" params="" file="/usr/lib/haxe/std/flash/display/Sprite.hx" extern="1">
 		<extends path="flash.display.DisplayObjectContainer"/>
 		<buttonMode public="1"><e path="Bool"/></buttonMode>
 		<dropTarget public="1" set="null"><c path="flash.display.DisplayObject"/></dropTarget>
@@ -619,39 +619,39 @@
 	</class>
 	<class path="RotatableBase" params="" file="src/RotatableBase.hx">
 		<extends path="flash.display.Sprite"/>
-		<SIZE get="inline" set="null" line="7" static="1"><c path="Int"/></SIZE>
-		<ROTATION_INCREMENT get="inline" set="null" line="8" static="1"><c path="Float"/></ROTATION_INCREMENT>
-		<ROTATION_DECAY get="inline" set="null" line="9" static="1"><c path="Float"/></ROTATION_DECAY>
-		<MAX_ROTATION get="inline" set="null" line="10" static="1"><c path="Int"/></MAX_ROTATION>
+		<SIZE get="inline" set="null" line="10" static="1"><c path="Int"/></SIZE>
+		<ROTATION_INCREMENT get="inline" set="null" line="11" static="1"><c path="Float"/></ROTATION_INCREMENT>
+		<ROTATION_DECAY get="inline" set="null" line="12" static="1"><c path="Float"/></ROTATION_DECAY>
+		<MAX_ROTATION get="inline" set="null" line="13" static="1"><c path="Int"/></MAX_ROTATION>
 		<shape><c path="flash.display.Shape"/></shape>
 		<isLeftKeyDown><e path="Bool"/></isLeftKeyDown>
 		<isRightKeyDown><e path="Bool"/></isRightKeyDown>
 		<currentRotation><c path="Float"/></currentRotation>
-		<init public="1" set="method" line="26"><f a=""><e path="Void"/></f></init>
-		<update public="1" set="method" line="45"><f a=""><e path="Void"/></f></update>
-		<new public="1" set="method" line="20"><f a=""><e path="Void"/></f></new>
+		<init public="1" set="method" line="29"><f a=""><e path="Void"/></f></init>
+		<update public="1" set="method" line="48"><f a=""><e path="Void"/></f></update>
+		<new public="1" set="method" line="23"><f a=""><e path="Void"/></f></new>
 	</class>
 	<class path="RotatableWithEvents" params="" file="src/RotatableWithEvents.hx">
 		<extends path="RotatableBase"/>
-		<onAddedToStage set="method" line="15"><f a="_">
+		<onAddedToStage set="method" line="18"><f a="_">
 	<unknown/>
 	<e path="Void"/>
 </f></onAddedToStage>
-		<onKeyPressed set="method" line="26"><f a="_">
+		<onKeyPressed set="method" line="29"><f a="_">
 	<a><keyCode set="null"><t path="UInt"/></keyCode></a>
 	<e path="Void"/>
 </f></onKeyPressed>
-		<onKeyReleased set="method" line="42"><f a="_">
+		<onKeyReleased set="method" line="45"><f a="_">
 	<a><keyCode set="null"><t path="UInt"/></keyCode></a>
 	<e path="Void"/>
 </f></onKeyReleased>
-		<onUpdated set="method" line="56"><f a="_">
+		<onUpdated set="method" line="59"><f a="_">
 	<unknown/>
 	<e path="Void"/>
 </f></onUpdated>
-		<new public="1" set="method" line="8"><f a=""><e path="Void"/></f></new>
+		<new public="1" set="method" line="11"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="Std" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/_std/Std.hx">
+	<class path="Std" params="" file="/usr/lib/haxe/std/flash/_std/Std.hx">
 		<is public="1" set="method" line="29" static="1">
 			<f a="v:t">
 				<d/>
@@ -711,26 +711,26 @@
 	The Std class provides standard methods for manipulating basic types.
 </haxe_doc>
 	</class>
-	<enum path="Void" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/StdTypes.hx" module="StdTypes"><haxe_doc>
+	<enum path="Void" params="" file="/usr/lib/haxe/std/StdTypes.hx" module="StdTypes"><haxe_doc>
 	The standard Void type. Only [null] values can be of the type [Void].
 </haxe_doc></enum>
-	<class path="Float" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/StdTypes.hx" module="StdTypes" extern="1"><haxe_doc>
+	<class path="Float" params="" file="/usr/lib/haxe/std/StdTypes.hx" module="StdTypes" extern="1"><haxe_doc>
 	The standard Float type, this is a double-precision IEEE 64bit float.
 </haxe_doc></class>
-	<class path="Int" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/StdTypes.hx" module="StdTypes" extern="1">
+	<class path="Int" params="" file="/usr/lib/haxe/std/StdTypes.hx" module="StdTypes" extern="1">
 		<extends path="Float"/>
 		<haxe_doc>
 	The standard Int type. Its precision depends on the platform.
 </haxe_doc>
 	</class>
-	<typedef path="UInt" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/StdTypes.hx" module="StdTypes">
+	<typedef path="UInt" params="" file="/usr/lib/haxe/std/StdTypes.hx" module="StdTypes">
 		<c path="Int"/>
 		<haxe_doc>
 	The unsigned Int type is only defined for Flash9. It's currently
 	handled the same as a normal Int.
 </haxe_doc>
 	</typedef>
-	<typedef path="Null" params="T" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/StdTypes.hx" module="StdTypes">
+	<typedef path="Null" params="T" file="/usr/lib/haxe/std/StdTypes.hx" module="StdTypes">
 		<c path="Null.T"/>
 		<haxe_doc>
 	[Null] can be useful in two cases. In order to document some methods
@@ -739,18 +739,18 @@
 	can't.
 </haxe_doc>
 	</typedef>
-	<enum path="Bool" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/StdTypes.hx" module="StdTypes">
+	<enum path="Bool" params="" file="/usr/lib/haxe/std/StdTypes.hx" module="StdTypes">
 		<true/>
 		<false/>
 		<haxe_doc>
 	The standard Boolean type is represented as an enum with two choices.
 </haxe_doc>
 	</enum>
-	<class path="Dynamic" params="T" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/StdTypes.hx" module="StdTypes" extern="1"><haxe_doc>
+	<class path="Dynamic" params="T" file="/usr/lib/haxe/std/StdTypes.hx" module="StdTypes" extern="1"><haxe_doc>
 	Dynamic is an internal compiler type which has special behavior.
 	See the haXe language reference for more informations.
 </haxe_doc></class>
-	<typedef path="Iterator" params="T" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/StdTypes.hx" module="StdTypes">
+	<typedef path="Iterator" params="T" file="/usr/lib/haxe/std/StdTypes.hx" module="StdTypes">
 		<a>
 			<next set="method"><f a=""><c path="Iterator.T"/></f></next>
 			<hasNext set="method"><f a=""><e path="Bool"/></f></hasNext>
@@ -761,18 +761,18 @@
 	documentation for more informations.
 </haxe_doc>
 	</typedef>
-	<typedef path="Iterable" params="T" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/StdTypes.hx" module="StdTypes">
+	<typedef path="Iterable" params="T" file="/usr/lib/haxe/std/StdTypes.hx" module="StdTypes">
 		<a><iterator set="method"><f a=""><t path="Iterator"><c path="Iterable.T"/></t></f></iterator></a>
 		<haxe_doc>
 	An Iterable is a data structure which has an iterator() method.
 	See [Lambda] for generic functions on iterable structures.
 </haxe_doc>
 	</typedef>
-	<class path="ArrayAccess" params="T" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/StdTypes.hx" module="StdTypes" extern="1" interface="1"><haxe_doc>
+	<class path="ArrayAccess" params="T" file="/usr/lib/haxe/std/StdTypes.hx" module="StdTypes" extern="1" interface="1"><haxe_doc>
 	ArrayAccess is used to indicate a class that can be accessed using brackets.
 	The type parameter represent the type of the elements stored.
 </haxe_doc></class>
-	<class path="String" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/String.hx" extern="1">
+	<class path="String" params="" file="/usr/lib/haxe/std/String.hx" extern="1">
 		<fromCharCode public="1" set="method" static="1"><f a="code">
 	<c path="Int"/>
 	<c path="String"/>
@@ -877,7 +877,7 @@
 	The basic String class.
 </haxe_doc>
 	</class>
-	<class path="flash.display.MovieClip" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/MovieClip.hx" extern="1">
+	<class path="flash.display.MovieClip" params="" file="/usr/lib/haxe/std/flash/display/MovieClip.hx" extern="1">
 		<extends path="flash.display.Sprite"/>
 		<currentFrame public="1" set="null"><c path="Int"/></currentFrame>
 		<currentFrameLabel public="1" set="null"><c path="String"/></currentFrameLabel>
@@ -917,7 +917,7 @@
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 		<haxe_dynamic><d/></haxe_dynamic>
 	</class>
-	<class path="flash.Boot" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/Boot.hx">
+	<class path="flash.Boot" params="" file="/usr/lib/haxe/std/flash/Boot.hx">
 		<extends path="flash.display.MovieClip"/>
 		<tf static="1"><c path="flash.text.TextField"/></tf>
 		<lines static="1"><c path="Array"><c path="String"/></c></lines>
@@ -963,12 +963,12 @@
 		<init set="method" line="81"><f a=""><e path="Void"/></f></init>
 		<new public="1" set="method" line="47"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash._Boot.RealBoot" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/Boot.hx" private="1" module="flash.Boot">
+	<class path="flash._Boot.RealBoot" params="" file="/usr/lib/haxe/std/flash/Boot.hx" private="1" module="flash.Boot">
 		<extends path="flash.Boot"/>
 		<new set="method" line="38"><f a=""><e path="Void"/></f></new>
 		<haxe_dynamic><d/></haxe_dynamic>
 	</class>
-	<class path="flash.Lib" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/Lib.hx">
+	<class path="flash.Lib" params="" file="/usr/lib/haxe/std/flash/Lib.hx">
 		<current public="1" static="1"><c path="flash.display.MovieClip"/></current>
 		<getTimer public="1" get="inline" set="null" line="31" static="1"><f a=""><c path="Int"/></f></getTimer>
 		<eval public="1" set="method" line="35" static="1"><f a="path">
@@ -999,7 +999,7 @@
 	<t path="Null"><c path="as.T"/></t>
 </f></as>
 	</class>
-	<class path="flash.Vector" params="T" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/Vector.hx" extern="1">
+	<class path="flash.Vector" params="T" file="/usr/lib/haxe/std/flash/Vector.hx" extern="1">
 		<ofArray public="1" params="T" get="inline" set="null" line="26" static="1"><f a="v">
 	<c path="Array"><c path="ofArray.T"/></c>
 	<c path="flash.Vector"><c path="ofArray.T"/></c>
@@ -1067,7 +1067,7 @@
 	The Vector class is very similar to Array but is only supported by the Flash Player 10+
 </haxe_doc>
 	</class>
-	<class path="flash.accessibility.AccessibilityImplementation" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/accessibility/AccessibilityImplementation.hx" extern="1">
+	<class path="flash.accessibility.AccessibilityImplementation" params="" file="/usr/lib/haxe/std/flash/accessibility/AccessibilityImplementation.hx" extern="1">
 		<errno public="1"><t path="UInt"/></errno>
 		<stub public="1"><e path="Bool"/></stub>
 		<accDoDefaultAction public="1" set="method"><f a="childID">
@@ -1114,7 +1114,7 @@
 </f></isLabeledBy>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.accessibility.AccessibilityProperties" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/accessibility/AccessibilityProperties.hx" extern="1">
+	<class path="flash.accessibility.AccessibilityProperties" params="" file="/usr/lib/haxe/std/flash/accessibility/AccessibilityProperties.hx" extern="1">
 		<description public="1"><c path="String"/></description>
 		<forceSimple public="1"><e path="Bool"/></forceSimple>
 		<name public="1"><c path="String"/></name>
@@ -1123,11 +1123,11 @@
 		<silent public="1"><e path="Bool"/></silent>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<enum path="flash.display.ActionScriptVersion" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/ActionScriptVersion.hx">
+	<enum path="flash.display.ActionScriptVersion" params="" file="/usr/lib/haxe/std/flash/display/ActionScriptVersion.hx">
 		<ACTIONSCRIPT3/>
 		<ACTIONSCRIPT2/>
 	</enum>
-	<class path="flash.display.BitmapData" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/BitmapData.hx" extern="1">
+	<class path="flash.display.BitmapData" params="" file="/usr/lib/haxe/std/flash/display/BitmapData.hx" extern="1">
 		<implements path="flash.display.IBitmapDrawable"/>
 		<height public="1" set="null"><c path="Int"/></height>
 		<rect public="1" set="null"><c path="flash.geom.Rectangle"/></rect>
@@ -1345,7 +1345,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<enum path="flash.display.BlendMode" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/BlendMode.hx">
+	<enum path="flash.display.BlendMode" params="" file="/usr/lib/haxe/std/flash/display/BlendMode.hx">
 		<SUBTRACT/>
 		<SHADER/>
 		<SCREEN/>
@@ -1362,22 +1362,22 @@
 		<ALPHA/>
 		<ADD/>
 	</enum>
-	<enum path="flash.display.CapsStyle" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/CapsStyle.hx">
+	<enum path="flash.display.CapsStyle" params="" file="/usr/lib/haxe/std/flash/display/CapsStyle.hx">
 		<SQUARE/>
 		<ROUND/>
 		<NONE/>
 	</enum>
-	<enum path="flash.display.ColorCorrection" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/ColorCorrection.hx">
+	<enum path="flash.display.ColorCorrection" params="" file="/usr/lib/haxe/std/flash/display/ColorCorrection.hx">
 		<ON/>
 		<OFF/>
 		<DEFAULT/>
 	</enum>
-	<enum path="flash.display.ColorCorrectionSupport" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/ColorCorrectionSupport.hx">
+	<enum path="flash.display.ColorCorrectionSupport" params="" file="/usr/lib/haxe/std/flash/display/ColorCorrectionSupport.hx">
 		<UNSUPPORTED/>
 		<DEFAULT_ON/>
 		<DEFAULT_OFF/>
 	</enum>
-	<class path="flash.display.FrameLabel" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/FrameLabel.hx" extern="1">
+	<class path="flash.display.FrameLabel" params="" file="/usr/lib/haxe/std/flash/display/FrameLabel.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<frame public="1" set="null"><c path="Int"/></frame>
 		<name public="1" set="null"><c path="String"/></name>
@@ -1387,11 +1387,11 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<enum path="flash.display.GradientType" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/GradientType.hx">
+	<enum path="flash.display.GradientType" params="" file="/usr/lib/haxe/std/flash/display/GradientType.hx">
 		<RADIAL/>
 		<LINEAR/>
 	</enum>
-	<class path="flash.display.Graphics" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/Graphics.hx" extern="1">
+	<class path="flash.display.Graphics" params="" file="/usr/lib/haxe/std/flash/display/Graphics.hx" extern="1">
 		<beginBitmapFill public="1" set="method"><f a="bitmap:?matrix:?repeat:?smooth">
 	<c path="flash.display.BitmapData"/>
 	<c path="flash.geom.Matrix"/>
@@ -1545,27 +1545,27 @@
 </f></moveTo>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<enum path="flash.display.GraphicsPathWinding" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/GraphicsPathWinding.hx">
+	<enum path="flash.display.GraphicsPathWinding" params="" file="/usr/lib/haxe/std/flash/display/GraphicsPathWinding.hx">
 		<NON_ZERO/>
 		<EVEN_ODD/>
 	</enum>
-	<class path="flash.display.IGraphicsData" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/IGraphicsData.hx" extern="1" interface="1"/>
-	<enum path="flash.display.InterpolationMethod" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/InterpolationMethod.hx">
+	<class path="flash.display.IGraphicsData" params="" file="/usr/lib/haxe/std/flash/display/IGraphicsData.hx" extern="1" interface="1"/>
+	<enum path="flash.display.InterpolationMethod" params="" file="/usr/lib/haxe/std/flash/display/InterpolationMethod.hx">
 		<RGB/>
 		<LINEAR_RGB/>
 	</enum>
-	<enum path="flash.display.JointStyle" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/JointStyle.hx">
+	<enum path="flash.display.JointStyle" params="" file="/usr/lib/haxe/std/flash/display/JointStyle.hx">
 		<ROUND/>
 		<MITER/>
 		<BEVEL/>
 	</enum>
-	<enum path="flash.display.LineScaleMode" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/LineScaleMode.hx">
+	<enum path="flash.display.LineScaleMode" params="" file="/usr/lib/haxe/std/flash/display/LineScaleMode.hx">
 		<VERTICAL/>
 		<NORMAL/>
 		<NONE/>
 		<HORIZONTAL/>
 	</enum>
-	<class path="flash.display.Loader" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/Loader.hx" extern="1">
+	<class path="flash.display.Loader" params="" file="/usr/lib/haxe/std/flash/display/Loader.hx" extern="1">
 		<extends path="flash.display.DisplayObjectContainer"/>
 		<content public="1" set="null"><c path="flash.display.DisplayObject"/></content>
 		<contentLoaderInfo public="1" set="null"><c path="flash.display.LoaderInfo"/></contentLoaderInfo>
@@ -1588,7 +1588,7 @@
 </f></unloadAndStop>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.display.LoaderInfo" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/LoaderInfo.hx" extern="1">
+	<class path="flash.display.LoaderInfo" params="" file="/usr/lib/haxe/std/flash/display/LoaderInfo.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<getLoaderInfoByDefinition public="1" set="method" static="1"><f a="object">
 	<d/>
@@ -1616,11 +1616,11 @@
 		<url public="1" set="null"><c path="String"/></url>
 		<width public="1" set="null"><c path="Int"/></width>
 	</class>
-	<class path="flash.display.NativeMenu" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/NativeMenu.hx" extern="1">
+	<class path="flash.display.NativeMenu" params="" file="/usr/lib/haxe/std/flash/display/NativeMenu.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<new public="1"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.display.Scene" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/Scene.hx" extern="1">
+	<class path="flash.display.Scene" params="" file="/usr/lib/haxe/std/flash/display/Scene.hx" extern="1">
 		<labels public="1" set="null"><c path="Array"><c path="flash.display.FrameLabel"/></c></labels>
 		<name public="1" set="null"><c path="String"/></name>
 		<numFrames public="1" set="null"><c path="Int"/></numFrames>
@@ -1631,7 +1631,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.display.Shader" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/Shader.hx" extern="1">
+	<class path="flash.display.Shader" params="" file="/usr/lib/haxe/std/flash/display/Shader.hx" extern="1">
 		<byteCode public="1" get="null"><c path="flash.utils.ByteArray"/></byteCode>
 		<data public="1"><c path="flash.display.ShaderData"/></data>
 		<precisionHint public="1"><e path="flash.display.ShaderPrecision"/></precisionHint>
@@ -1640,28 +1640,28 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.display.ShaderData" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/ShaderData.hx" extern="1">
+	<class path="flash.display.ShaderData" params="" file="/usr/lib/haxe/std/flash/display/ShaderData.hx" extern="1">
 		<new public="1" set="method"><f a="byteCode">
 	<c path="flash.utils.ByteArray"/>
 	<e path="Void"/>
 </f></new>
 		<haxe_dynamic><d/></haxe_dynamic>
 	</class>
-	<enum path="flash.display.ShaderPrecision" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/ShaderPrecision.hx">
+	<enum path="flash.display.ShaderPrecision" params="" file="/usr/lib/haxe/std/flash/display/ShaderPrecision.hx">
 		<FULL/>
 		<FAST/>
 	</enum>
-	<class path="flash.display.Shape" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/Shape.hx" extern="1">
+	<class path="flash.display.Shape" params="" file="/usr/lib/haxe/std/flash/display/Shape.hx" extern="1">
 		<extends path="flash.display.DisplayObject"/>
 		<graphics public="1" set="null"><c path="flash.display.Graphics"/></graphics>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<enum path="flash.display.SpreadMethod" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/SpreadMethod.hx">
+	<enum path="flash.display.SpreadMethod" params="" file="/usr/lib/haxe/std/flash/display/SpreadMethod.hx">
 		<REPEAT/>
 		<REFLECT/>
 		<PAD/>
 	</enum>
-	<class path="flash.display.Stage" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/Stage.hx" extern="1">
+	<class path="flash.display.Stage" params="" file="/usr/lib/haxe/std/flash/display/Stage.hx" extern="1">
 		<extends path="flash.display.DisplayObjectContainer"/>
 		<align public="1"><e path="flash.display.StageAlign"/></align>
 		<allowsFullScreen public="1"><e path="Bool"/></allowsFullScreen>
@@ -1690,7 +1690,7 @@
 		<invalidate public="1" set="method"><f a=""><e path="Void"/></f></invalidate>
 		<isFocusInaccessible public="1" set="method"><f a=""><e path="Bool"/></f></isFocusInaccessible>
 	</class>
-	<class path="flash.display.Stage3D" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/Stage3D.hx" extern="1">
+	<class path="flash.display.Stage3D" params="" file="/usr/lib/haxe/std/flash/display/Stage3D.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<context3D public="1" set="null"><c path="flash.display3D.Context3D"/></context3D>
 		<visible public="1"><e path="Bool"/></visible>
@@ -1702,7 +1702,7 @@
 	<e path="Void"/>
 </f></requestContext3D>
 	</class>
-	<enum path="flash.display.StageAlign" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/StageAlign.hx">
+	<enum path="flash.display.StageAlign" params="" file="/usr/lib/haxe/std/flash/display/StageAlign.hx">
 		<TOP_RIGHT/>
 		<TOP_LEFT/>
 		<TOP/>
@@ -1712,12 +1712,12 @@
 		<BOTTOM_LEFT/>
 		<BOTTOM/>
 	</enum>
-	<enum path="flash.display.StageDisplayState" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/StageDisplayState.hx">
+	<enum path="flash.display.StageDisplayState" params="" file="/usr/lib/haxe/std/flash/display/StageDisplayState.hx">
 		<NORMAL/>
 		<FULL_SCREEN_INTERACTIVE/>
 		<FULL_SCREEN/>
 	</enum>
-	<enum path="flash.display.StageQuality" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/StageQuality.hx">
+	<enum path="flash.display.StageQuality" params="" file="/usr/lib/haxe/std/flash/display/StageQuality.hx">
 		<MEDIUM/>
 		<LOW/>
 		<HIGH_8X8_LINEAR/>
@@ -1727,18 +1727,18 @@
 		<HIGH/>
 		<BEST/>
 	</enum>
-	<enum path="flash.display.StageScaleMode" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/StageScaleMode.hx">
+	<enum path="flash.display.StageScaleMode" params="" file="/usr/lib/haxe/std/flash/display/StageScaleMode.hx">
 		<SHOW_ALL/>
 		<NO_SCALE/>
 		<NO_BORDER/>
 		<EXACT_FIT/>
 	</enum>
-	<enum path="flash.display.TriangleCulling" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display/TriangleCulling.hx">
+	<enum path="flash.display.TriangleCulling" params="" file="/usr/lib/haxe/std/flash/display/TriangleCulling.hx">
 		<POSITIVE/>
 		<NONE/>
 		<NEGATIVE/>
 	</enum>
-	<class path="flash.display3D.Context3D" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/Context3D.hx" extern="1">
+	<class path="flash.display3D.Context3D" params="" file="/usr/lib/haxe/std/flash/display3D/Context3D.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<driverInfo public="1" set="null"><c path="String"/></driverInfo>
 		<enableErrorChecking public="1"><e path="Bool"/></enableErrorChecking>
@@ -1890,7 +1890,7 @@
 	<e path="Void"/>
 </f></setVertexBufferAt>
 	</class>
-	<enum path="flash.display3D.Context3DBlendFactor" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/Context3DBlendFactor.hx">
+	<enum path="flash.display3D.Context3DBlendFactor" params="" file="/usr/lib/haxe/std/flash/display3D/Context3DBlendFactor.hx">
 		<ZERO/>
 		<SOURCE_COLOR/>
 		<SOURCE_ALPHA/>
@@ -1902,7 +1902,7 @@
 		<DESTINATION_COLOR/>
 		<DESTINATION_ALPHA/>
 	</enum>
-	<enum path="flash.display3D.Context3DCompareMode" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/Context3DCompareMode.hx">
+	<enum path="flash.display3D.Context3DCompareMode" params="" file="/usr/lib/haxe/std/flash/display3D/Context3DCompareMode.hx">
 		<NOT_EQUAL/>
 		<NEVER/>
 		<LESS_EQUAL/>
@@ -1912,11 +1912,11 @@
 		<EQUAL/>
 		<ALWAYS/>
 	</enum>
-	<enum path="flash.display3D.Context3DProgramType" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/Context3DProgramType.hx">
+	<enum path="flash.display3D.Context3DProgramType" params="" file="/usr/lib/haxe/std/flash/display3D/Context3DProgramType.hx">
 		<VERTEX/>
 		<FRAGMENT/>
 	</enum>
-	<enum path="flash.display3D.Context3DStencilAction" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/Context3DStencilAction.hx">
+	<enum path="flash.display3D.Context3DStencilAction" params="" file="/usr/lib/haxe/std/flash/display3D/Context3DStencilAction.hx">
 		<ZERO/>
 		<SET/>
 		<KEEP/>
@@ -1926,24 +1926,24 @@
 		<DECREMENT_WRAP/>
 		<DECREMENT_SATURATE/>
 	</enum>
-	<enum path="flash.display3D.Context3DTextureFormat" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/Context3DTextureFormat.hx">
+	<enum path="flash.display3D.Context3DTextureFormat" params="" file="/usr/lib/haxe/std/flash/display3D/Context3DTextureFormat.hx">
 		<COMPRESSED/>
 		<BGRA/>
 	</enum>
-	<enum path="flash.display3D.Context3DTriangleFace" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/Context3DTriangleFace.hx">
+	<enum path="flash.display3D.Context3DTriangleFace" params="" file="/usr/lib/haxe/std/flash/display3D/Context3DTriangleFace.hx">
 		<NONE/>
 		<FRONT_AND_BACK/>
 		<FRONT/>
 		<BACK/>
 	</enum>
-	<enum path="flash.display3D.Context3DVertexBufferFormat" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/Context3DVertexBufferFormat.hx">
+	<enum path="flash.display3D.Context3DVertexBufferFormat" params="" file="/usr/lib/haxe/std/flash/display3D/Context3DVertexBufferFormat.hx">
 		<FLOAT_4/>
 		<FLOAT_3/>
 		<FLOAT_2/>
 		<FLOAT_1/>
 		<BYTES_4/>
 	</enum>
-	<class path="flash.display3D.IndexBuffer3D" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/IndexBuffer3D.hx" extern="1">
+	<class path="flash.display3D.IndexBuffer3D" params="" file="/usr/lib/haxe/std/flash/display3D/IndexBuffer3D.hx" extern="1">
 		<dispose public="1" set="method"><f a=""><e path="Void"/></f></dispose>
 		<uploadFromByteArray public="1" set="method"><f a="data:byteArrayOffset:startOffset:count">
 	<c path="flash.utils.ByteArray"/>
@@ -1959,7 +1959,7 @@
 	<e path="Void"/>
 </f></uploadFromVector>
 	</class>
-	<class path="flash.display3D.Program3D" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/Program3D.hx" extern="1">
+	<class path="flash.display3D.Program3D" params="" file="/usr/lib/haxe/std/flash/display3D/Program3D.hx" extern="1">
 		<dispose public="1" set="method"><f a=""><e path="Void"/></f></dispose>
 		<upload public="1" set="method"><f a="vertexProgram:fragmentProgram">
 	<c path="flash.utils.ByteArray"/>
@@ -1967,7 +1967,7 @@
 	<e path="Void"/>
 </f></upload>
 	</class>
-	<class path="flash.display3D.VertexBuffer3D" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/VertexBuffer3D.hx" extern="1">
+	<class path="flash.display3D.VertexBuffer3D" params="" file="/usr/lib/haxe/std/flash/display3D/VertexBuffer3D.hx" extern="1">
 		<dispose public="1" set="method"><f a=""><e path="Void"/></f></dispose>
 		<uploadFromByteArray public="1" set="method"><f a="data:byteArrayOffset:startVertex:numVertices">
 	<c path="flash.utils.ByteArray"/>
@@ -1983,11 +1983,11 @@
 	<e path="Void"/>
 </f></uploadFromVector>
 	</class>
-	<class path="flash.display3D.textures.TextureBase" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/textures/TextureBase.hx" extern="1">
+	<class path="flash.display3D.textures.TextureBase" params="" file="/usr/lib/haxe/std/flash/display3D/textures/TextureBase.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<dispose public="1" set="method"><f a=""><e path="Void"/></f></dispose>
 	</class>
-	<class path="flash.display3D.textures.CubeTexture" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/textures/CubeTexture.hx" extern="1">
+	<class path="flash.display3D.textures.CubeTexture" params="" file="/usr/lib/haxe/std/flash/display3D/textures/CubeTexture.hx" extern="1">
 		<extends path="flash.display3D.textures.TextureBase"/>
 		<uploadCompressedTextureFromByteArray public="1" set="method"><f a="data:byteArrayOffset:?async">
 	<c path="flash.utils.ByteArray"/>
@@ -2009,7 +2009,7 @@
 	<e path="Void"/>
 </f></uploadFromByteArray>
 	</class>
-	<class path="flash.display3D.textures.RectangleTexture" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/textures/RectangleTexture.hx" extern="1">
+	<class path="flash.display3D.textures.RectangleTexture" params="" file="/usr/lib/haxe/std/flash/display3D/textures/RectangleTexture.hx" extern="1">
 		<extends path="flash.display3D.textures.TextureBase"/>
 		<uploadFromBitmapData public="1" set="method"><f a="source">
 	<c path="flash.display.BitmapData"/>
@@ -2022,7 +2022,7 @@
 </f></uploadFromByteArray>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.display3D.textures.Texture" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/display3D/textures/Texture.hx" extern="1">
+	<class path="flash.display3D.textures.Texture" params="" file="/usr/lib/haxe/std/flash/display3D/textures/Texture.hx" extern="1">
 		<extends path="flash.display3D.textures.TextureBase"/>
 		<uploadCompressedTextureFromByteArray public="1" set="method"><f a="data:byteArrayOffset:?async">
 	<c path="flash.utils.ByteArray"/>
@@ -2042,7 +2042,7 @@
 	<e path="Void"/>
 </f></uploadFromByteArray>
 	</class>
-	<class path="flash.errors.Error" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/errors/Error.hx" extern="1">
+	<class path="flash.errors.Error" params="" file="/usr/lib/haxe/std/flash/errors/Error.hx" extern="1">
 		<length public="1" static="1"><c path="Int"/></length>
 		<getErrorMessage public="1" set="method" static="1"><f a="index">
 	<c path="Int"/>
@@ -2069,7 +2069,7 @@
 </f></new>
 		<haxe_dynamic><d/></haxe_dynamic>
 	</class>
-	<class path="flash.events.Event" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/events/Event.hx" extern="1">
+	<class path="flash.events.Event" params="" file="/usr/lib/haxe/std/flash/events/Event.hx" extern="1">
 		<ACTIVATE public="1" static="1"><c path="String"/></ACTIVATE>
 		<ADDED public="1" static="1"><c path="String"/></ADDED>
 		<ADDED_TO_STAGE public="1" static="1"><c path="String"/></ADDED_TO_STAGE>
@@ -2135,12 +2135,12 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<enum path="flash.events.EventPhase" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/events/EventPhase.hx">
+	<enum path="flash.events.EventPhase" params="" file="/usr/lib/haxe/std/flash/events/EventPhase.hx">
 		<CAPTURING_PHASE/>
 		<BUBBLING_PHASE/>
 		<AT_TARGET/>
 	</enum>
-	<class path="flash.events.KeyboardEvent" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/events/KeyboardEvent.hx" extern="1">
+	<class path="flash.events.KeyboardEvent" params="" file="/usr/lib/haxe/std/flash/events/KeyboardEvent.hx" extern="1">
 		<extends path="flash.events.Event"/>
 		<KEY_DOWN public="1" static="1"><c path="String"/></KEY_DOWN>
 		<KEY_UP public="1" static="1"><c path="String"/></KEY_UP>
@@ -2164,15 +2164,15 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.events.UncaughtErrorEvents" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/events/UncaughtErrorEvents.hx" extern="1">
+	<class path="flash.events.UncaughtErrorEvents" params="" file="/usr/lib/haxe/std/flash/events/UncaughtErrorEvents.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<new public="1"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.filters.BitmapFilter" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/filters/BitmapFilter.hx" extern="1">
+	<class path="flash.filters.BitmapFilter" params="" file="/usr/lib/haxe/std/flash/filters/BitmapFilter.hx" extern="1">
 		<clone public="1" set="method"><f a=""><c path="flash.filters.BitmapFilter"/></f></clone>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.geom.ColorTransform" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/geom/ColorTransform.hx" extern="1">
+	<class path="flash.geom.ColorTransform" params="" file="/usr/lib/haxe/std/flash/geom/ColorTransform.hx" extern="1">
 		<alphaMultiplier public="1"><c path="Float"/></alphaMultiplier>
 		<alphaOffset public="1"><c path="Float"/></alphaOffset>
 		<blueMultiplier public="1"><c path="Float"/></blueMultiplier>
@@ -2199,7 +2199,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.geom.Matrix" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/geom/Matrix.hx" extern="1">
+	<class path="flash.geom.Matrix" params="" file="/usr/lib/haxe/std/flash/geom/Matrix.hx" extern="1">
 		<a public="1"><c path="Float"/></a>
 		<b public="1"><c path="Float"/></b>
 		<c public="1"><c path="Float"/></c>
@@ -2295,7 +2295,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.geom.Matrix3D" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/geom/Matrix3D.hx" extern="1">
+	<class path="flash.geom.Matrix3D" params="" file="/usr/lib/haxe/std/flash/geom/Matrix3D.hx" extern="1">
 		<interpolate public="1" set="method" static="1"><f a="thisMat:toMat:percent">
 	<c path="flash.geom.Matrix3D"/>
 	<c path="flash.geom.Matrix3D"/>
@@ -2431,19 +2431,19 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<enum path="flash.geom.Orientation3D" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/geom/Orientation3D.hx">
+	<enum path="flash.geom.Orientation3D" params="" file="/usr/lib/haxe/std/flash/geom/Orientation3D.hx">
 		<QUATERNION/>
 		<EULER_ANGLES/>
 		<AXIS_ANGLE/>
 	</enum>
-	<class path="flash.geom.PerspectiveProjection" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/geom/PerspectiveProjection.hx" extern="1">
+	<class path="flash.geom.PerspectiveProjection" params="" file="/usr/lib/haxe/std/flash/geom/PerspectiveProjection.hx" extern="1">
 		<fieldOfView public="1"><c path="Float"/></fieldOfView>
 		<focalLength public="1"><c path="Float"/></focalLength>
 		<projectionCenter public="1"><c path="flash.geom.Point"/></projectionCenter>
 		<toMatrix3D public="1" set="method"><f a=""><c path="flash.geom.Matrix3D"/></f></toMatrix3D>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.geom.Point" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/geom/Point.hx" extern="1">
+	<class path="flash.geom.Point" params="" file="/usr/lib/haxe/std/flash/geom/Point.hx" extern="1">
 		<distance public="1" set="method" static="1"><f a="pt1:pt2">
 	<c path="flash.geom.Point"/>
 	<c path="flash.geom.Point"/>
@@ -2501,7 +2501,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.geom.Transform" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/geom/Transform.hx" extern="1">
+	<class path="flash.geom.Transform" params="" file="/usr/lib/haxe/std/flash/geom/Transform.hx" extern="1">
 		<colorTransform public="1"><c path="flash.geom.ColorTransform"/></colorTransform>
 		<concatenatedColorTransform public="1" set="null"><c path="flash.geom.ColorTransform"/></concatenatedColorTransform>
 		<concatenatedMatrix public="1" set="null"><c path="flash.geom.Matrix"/></concatenatedMatrix>
@@ -2518,7 +2518,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.geom.Vector3D" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/geom/Vector3D.hx" extern="1">
+	<class path="flash.geom.Vector3D" params="" file="/usr/lib/haxe/std/flash/geom/Vector3D.hx" extern="1">
 		<X_AXIS public="1" static="1"><c path="flash.geom.Vector3D"/></X_AXIS>
 		<Y_AXIS public="1" static="1"><c path="flash.geom.Vector3D"/></Y_AXIS>
 		<Z_AXIS public="1" static="1"><c path="flash.geom.Vector3D"/></Z_AXIS>
@@ -2600,7 +2600,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.media.Camera" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/media/Camera.hx" extern="1">
+	<class path="flash.media.Camera" params="" file="/usr/lib/haxe/std/flash/media/Camera.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<isSupported public="1" static="1"><e path="Bool"/></isSupported>
 		<names public="1" set="null" static="1"><c path="Array"><d/></c></names>
@@ -2655,7 +2655,7 @@
 </f></setQuality>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.media.Microphone" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/media/Microphone.hx" extern="1">
+	<class path="flash.media.Microphone" params="" file="/usr/lib/haxe/std/flash/media/Microphone.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<isSupported public="1" static="1"><e path="Bool"/></isSupported>
 		<names public="1" set="null" static="1"><c path="Array"><d/></c></names>
@@ -2698,14 +2698,14 @@
 </f></setUseEchoSuppression>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<enum path="flash.media.MicrophoneEnhancedMode" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/media/MicrophoneEnhancedMode.hx">
+	<enum path="flash.media.MicrophoneEnhancedMode" params="" file="/usr/lib/haxe/std/flash/media/MicrophoneEnhancedMode.hx">
 		<SPEAKER_MUTE/>
 		<OFF/>
 		<HEADSET/>
 		<HALF_DUPLEX/>
 		<FULL_DUPLEX/>
 	</enum>
-	<class path="flash.media.MicrophoneEnhancedOptions" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/media/MicrophoneEnhancedOptions.hx" extern="1">
+	<class path="flash.media.MicrophoneEnhancedOptions" params="" file="/usr/lib/haxe/std/flash/media/MicrophoneEnhancedOptions.hx" extern="1">
 		<autoGain public="1"><e path="Bool"/></autoGain>
 		<echoPath public="1"><c path="Int"/></echoPath>
 		<isVoiceDetected public="1"><c path="Int"/></isVoiceDetected>
@@ -2713,13 +2713,13 @@
 		<nonLinearProcessing public="1"><e path="Bool"/></nonLinearProcessing>
 		<new public="1"><f a=""><e path="Void"/></f></new>
 	</class>
-	<enum path="flash.media.SoundCodec" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/media/SoundCodec.hx">
+	<enum path="flash.media.SoundCodec" params="" file="/usr/lib/haxe/std/flash/media/SoundCodec.hx">
 		<SPEEX/>
 		<PCMU/>
 		<PCMA/>
 		<NELLYMOSER/>
 	</enum>
-	<class path="flash.media.SoundTransform" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/media/SoundTransform.hx" extern="1">
+	<class path="flash.media.SoundTransform" params="" file="/usr/lib/haxe/std/flash/media/SoundTransform.hx" extern="1">
 		<leftToLeft public="1"><c path="Float"/></leftToLeft>
 		<leftToRight public="1"><c path="Float"/></leftToRight>
 		<pan public="1"><c path="Float"/></pan>
@@ -2732,7 +2732,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.media.StageVideo" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/media/StageVideo.hx" extern="1">
+	<class path="flash.media.StageVideo" params="" file="/usr/lib/haxe/std/flash/media/StageVideo.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<colorSpaces public="1" set="null"><c path="flash.Vector"><c path="String"/></c></colorSpaces>
 		<depth public="1"><c path="Int"/></depth>
@@ -2747,7 +2747,7 @@
 </f></attachNetStream>
 		<new public="1"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.media.VideoStreamSettings" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/media/VideoStreamSettings.hx" extern="1">
+	<class path="flash.media.VideoStreamSettings" params="" file="/usr/lib/haxe/std/flash/media/VideoStreamSettings.hx" extern="1">
 		<bandwidth public="1" set="null"><c path="Int"/></bandwidth>
 		<codec public="1" set="null"><c path="String"/></codec>
 		<fps public="1" set="null"><c path="Float"/></fps>
@@ -2772,7 +2772,7 @@
 </f></setQuality>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.net.NetConnection" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/net/NetConnection.hx" extern="1">
+	<class path="flash.net.NetConnection" params="" file="/usr/lib/haxe/std/flash/net/NetConnection.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<defaultObjectEncoding public="1" static="1"><t path="UInt"/></defaultObjectEncoding>
 		<client public="1"><d/></client>
@@ -2817,7 +2817,7 @@
 </f></connect>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.net.NetStream" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/net/NetStream.hx" extern="1">
+	<class path="flash.net.NetStream" params="" file="/usr/lib/haxe/std/flash/net/NetStream.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<CONNECT_TO_FMS public="1" static="1"><c path="String"/></CONNECT_TO_FMS>
 		<DIRECT_CONNECTIONS public="1" static="1"><c path="String"/></DIRECT_CONNECTIONS>
@@ -2942,7 +2942,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.net.NetStreamInfo" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/net/NetStreamInfo.hx" extern="1">
+	<class path="flash.net.NetStreamInfo" params="" file="/usr/lib/haxe/std/flash/net/NetStreamInfo.hx" extern="1">
 		<SRTT public="1" set="null"><c path="Float"/></SRTT>
 		<audioBufferByteLength public="1" set="null"><c path="Float"/></audioBufferByteLength>
 		<audioBufferLength public="1" set="null"><c path="Float"/></audioBufferLength>
@@ -2998,7 +2998,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.net.NetStreamMulticastInfo" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/net/NetStreamMulticastInfo.hx" extern="1">
+	<class path="flash.net.NetStreamMulticastInfo" params="" file="/usr/lib/haxe/std/flash/net/NetStreamMulticastInfo.hx" extern="1">
 		<bytesPushedFromPeers public="1" set="null"><c path="Float"/></bytesPushedFromPeers>
 		<bytesPushedToPeers public="1" set="null"><c path="Float"/></bytesPushedToPeers>
 		<bytesReceivedFromIPMulticast public="1" set="null"><c path="Float"/></bytesReceivedFromIPMulticast>
@@ -3042,7 +3042,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.net.NetStreamPlayOptions" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/net/NetStreamPlayOptions.hx" extern="1">
+	<class path="flash.net.NetStreamPlayOptions" params="" file="/usr/lib/haxe/std/flash/net/NetStreamPlayOptions.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<len public="1"><c path="Float"/></len>
 		<offset public="1"><c path="Float"/></offset>
@@ -3053,12 +3053,12 @@
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 		<haxe_dynamic><d/></haxe_dynamic>
 	</class>
-	<class path="flash.net.Responder" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/net/Responder.hx" extern="1"><new public="1" set="method"><f a="result:?status">
+	<class path="flash.net.Responder" params="" file="/usr/lib/haxe/std/flash/net/Responder.hx" extern="1"><new public="1" set="method"><f a="result:?status">
 	<d/>
 	<d/>
 	<e path="Void"/>
 </f></new></class>
-	<class path="flash.net.URLRequest" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/net/URLRequest.hx" extern="1">
+	<class path="flash.net.URLRequest" params="" file="/usr/lib/haxe/std/flash/net/URLRequest.hx" extern="1">
 		<contentType public="1"><c path="String"/></contentType>
 		<data public="1"><d/></data>
 		<digest public="1"><c path="String"/></digest>
@@ -3070,7 +3070,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.net.URLRequestHeader" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/net/URLRequestHeader.hx" extern="1">
+	<class path="flash.net.URLRequestHeader" params="" file="/usr/lib/haxe/std/flash/net/URLRequestHeader.hx" extern="1">
 		<name public="1"><c path="String"/></name>
 		<value public="1"><c path="String"/></value>
 		<new public="1" set="method"><f a="?name:?value">
@@ -3079,7 +3079,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.system.ApplicationDomain" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/system/ApplicationDomain.hx" extern="1">
+	<class path="flash.system.ApplicationDomain" params="" file="/usr/lib/haxe/std/flash/system/ApplicationDomain.hx" extern="1">
 		<MIN_DOMAIN_MEMORY_LENGTH public="1" set="null" static="1"><t path="UInt"/></MIN_DOMAIN_MEMORY_LENGTH>
 		<currentDomain public="1" set="null" static="1"><c path="flash.system.ApplicationDomain"/></currentDomain>
 		<domainMemory public="1"><c path="flash.utils.ByteArray"/></domainMemory>
@@ -3098,11 +3098,11 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<enum path="flash.system.ImageDecodingPolicy" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/system/ImageDecodingPolicy.hx">
+	<enum path="flash.system.ImageDecodingPolicy" params="" file="/usr/lib/haxe/std/flash/system/ImageDecodingPolicy.hx">
 		<ON_LOAD/>
 		<ON_DEMAND/>
 	</enum>
-	<class path="flash.system.LoaderContext" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/system/LoaderContext.hx" extern="1">
+	<class path="flash.system.LoaderContext" params="" file="/usr/lib/haxe/std/flash/system/LoaderContext.hx" extern="1">
 		<allowCodeImport public="1"><e path="Bool"/></allowCodeImport>
 		<allowLoadBytesCodeExecution public="1"><e path="Bool"/></allowLoadBytesCodeExecution>
 		<applicationDomain public="1"><c path="flash.system.ApplicationDomain"/></applicationDomain>
@@ -3118,20 +3118,20 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.system.SecurityDomain" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/system/SecurityDomain.hx" extern="1">
+	<class path="flash.system.SecurityDomain" params="" file="/usr/lib/haxe/std/flash/system/SecurityDomain.hx" extern="1">
 		<currentDomain public="1" set="null" static="1"><c path="flash.system.SecurityDomain"/></currentDomain>
 		<domainID public="1"><c path="String"/></domainID>
 	</class>
-	<enum path="flash.text.AntiAliasType" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/AntiAliasType.hx">
+	<enum path="flash.text.AntiAliasType" params="" file="/usr/lib/haxe/std/flash/text/AntiAliasType.hx">
 		<NORMAL/>
 		<ADVANCED/>
 	</enum>
-	<enum path="flash.text.GridFitType" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/GridFitType.hx">
+	<enum path="flash.text.GridFitType" params="" file="/usr/lib/haxe/std/flash/text/GridFitType.hx">
 		<SUBPIXEL/>
 		<PIXEL/>
 		<NONE/>
 	</enum>
-	<class path="flash.text.StyleSheet" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/StyleSheet.hx" extern="1">
+	<class path="flash.text.StyleSheet" params="" file="/usr/lib/haxe/std/flash/text/StyleSheet.hx" extern="1">
 		<extends path="flash.events.EventDispatcher"/>
 		<styleNames public="1" set="null"><c path="Array"><d/></c></styleNames>
 		<clear public="1" set="method"><f a=""><e path="Void"/></f></clear>
@@ -3155,7 +3155,7 @@
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 		<haxe_dynamic><d/></haxe_dynamic>
 	</class>
-	<class path="flash.text.TextField" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/TextField.hx" extern="1">
+	<class path="flash.text.TextField" params="" file="/usr/lib/haxe/std/flash/text/TextField.hx" extern="1">
 		<extends path="flash.display.InteractiveObject"/>
 		<isFontCompatible public="1" set="method" static="1"><f a="fontName:fontStyle">
 	<c path="String"/>
@@ -3303,17 +3303,17 @@
 </f></setTextFormat>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<enum path="flash.text.TextFieldAutoSize" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/TextFieldAutoSize.hx">
+	<enum path="flash.text.TextFieldAutoSize" params="" file="/usr/lib/haxe/std/flash/text/TextFieldAutoSize.hx">
 		<RIGHT/>
 		<NONE/>
 		<LEFT/>
 		<CENTER/>
 	</enum>
-	<enum path="flash.text.TextFieldType" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/TextFieldType.hx">
+	<enum path="flash.text.TextFieldType" params="" file="/usr/lib/haxe/std/flash/text/TextFieldType.hx">
 		<INPUT/>
 		<DYNAMIC/>
 	</enum>
-	<class path="flash.text.TextFormat" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/TextFormat.hx" extern="1">
+	<class path="flash.text.TextFormat" params="" file="/usr/lib/haxe/std/flash/text/TextFormat.hx" extern="1">
 		<align public="1"><e path="flash.text.TextFormatAlign"/></align>
 		<blockIndent public="1"><t path="Null"><c path="Float"/></t></blockIndent>
 		<bold public="1"><t path="Null"><e path="Bool"/></t></bold>
@@ -3350,7 +3350,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<enum path="flash.text.TextFormatAlign" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/TextFormatAlign.hx">
+	<enum path="flash.text.TextFormatAlign" params="" file="/usr/lib/haxe/std/flash/text/TextFormatAlign.hx">
 		<START/>
 		<RIGHT/>
 		<LEFT/>
@@ -3358,15 +3358,15 @@
 		<END/>
 		<CENTER/>
 	</enum>
-	<enum path="flash.text.TextFormatDisplay" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/TextFormatDisplay.hx">
+	<enum path="flash.text.TextFormatDisplay" params="" file="/usr/lib/haxe/std/flash/text/TextFormatDisplay.hx">
 		<INLINE/>
 		<BLOCK/>
 	</enum>
-	<enum path="flash.text.TextInteractionMode" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/TextInteractionMode.hx">
+	<enum path="flash.text.TextInteractionMode" params="" file="/usr/lib/haxe/std/flash/text/TextInteractionMode.hx">
 		<SELECTION/>
 		<NORMAL/>
 	</enum>
-	<class path="flash.text.TextLineMetrics" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/TextLineMetrics.hx" extern="1">
+	<class path="flash.text.TextLineMetrics" params="" file="/usr/lib/haxe/std/flash/text/TextLineMetrics.hx" extern="1">
 		<ascent public="1"><c path="Float"/></ascent>
 		<descent public="1"><c path="Float"/></descent>
 		<height public="1"><c path="Float"/></height>
@@ -3383,7 +3383,7 @@
 	<e path="Void"/>
 </f></new>
 	</class>
-	<class path="flash.text.TextSnapshot" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/text/TextSnapshot.hx" extern="1">
+	<class path="flash.text.TextSnapshot" params="" file="/usr/lib/haxe/std/flash/text/TextSnapshot.hx" extern="1">
 		<charCount public="1" set="null"><c path="Int"/></charCount>
 		<findText public="1" set="method"><f a="beginIndex:textToFind:caseSensitive">
 	<c path="Int"/>
@@ -3429,7 +3429,7 @@
 </f></setSelected>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.ui.ContextMenu" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/ui/ContextMenu.hx" extern="1">
+	<class path="flash.ui.ContextMenu" params="" file="/usr/lib/haxe/std/flash/ui/ContextMenu.hx" extern="1">
 		<extends path="flash.display.NativeMenu"/>
 		<isSupported public="1" static="1"><e path="Bool"/></isSupported>
 		<builtInItems public="1"><c path="flash.ui.ContextMenuBuiltInItems"/></builtInItems>
@@ -3441,7 +3441,7 @@
 		<hideBuiltInItems public="1" set="method"><f a=""><e path="Void"/></f></hideBuiltInItems>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.ui.ContextMenuBuiltInItems" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/ui/ContextMenuBuiltInItems.hx" extern="1">
+	<class path="flash.ui.ContextMenuBuiltInItems" params="" file="/usr/lib/haxe/std/flash/ui/ContextMenuBuiltInItems.hx" extern="1">
 		<forwardAndBack public="1"><e path="Bool"/></forwardAndBack>
 		<loop public="1"><e path="Bool"/></loop>
 		<play public="1"><e path="Bool"/></play>
@@ -3453,7 +3453,7 @@
 		<clone public="1" set="method"><f a=""><c path="flash.ui.ContextMenuBuiltInItems"/></f></clone>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<class path="flash.ui.ContextMenuClipboardItems" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/ui/ContextMenuClipboardItems.hx" extern="1">
+	<class path="flash.ui.ContextMenuClipboardItems" params="" file="/usr/lib/haxe/std/flash/ui/ContextMenuClipboardItems.hx" extern="1">
 		<clear public="1"><e path="Bool"/></clear>
 		<copy public="1"><e path="Bool"/></copy>
 		<cut public="1"><e path="Bool"/></cut>
@@ -3462,14 +3462,14 @@
 		<clone public="1" set="method"><f a=""><c path="flash.ui.ContextMenuClipboardItems"/></f></clone>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<enum path="flash.ui.KeyLocation" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/ui/KeyLocation.hx">
+	<enum path="flash.ui.KeyLocation" params="" file="/usr/lib/haxe/std/flash/ui/KeyLocation.hx">
 		<STANDARD/>
 		<RIGHT/>
 		<NUM_PAD/>
 		<LEFT/>
 		<D_PAD/>
 	</enum>
-	<class path="flash.ui.Keyboard" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/ui/Keyboard.hx" extern="1">
+	<class path="flash.ui.Keyboard" params="" file="/usr/lib/haxe/std/flash/ui/Keyboard.hx" extern="1">
 		<A public="1" static="1"><t path="UInt"/></A>
 		<ALTERNATE public="1" static="1"><t path="UInt"/></ALTERNATE>
 		<AUDIO public="1" static="1"><t path="UInt"/></AUDIO>
@@ -3752,12 +3752,12 @@
 		<physicalKeyboardType public="1" static="1"><e path="flash.ui.KeyboardType"/></physicalKeyboardType>
 		<isAccessible public="1" set="method" static="1"><f a=""><e path="Bool"/></f></isAccessible>
 	</class>
-	<enum path="flash.ui.KeyboardType" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/ui/KeyboardType.hx">
+	<enum path="flash.ui.KeyboardType" params="" file="/usr/lib/haxe/std/flash/ui/KeyboardType.hx">
 		<NONE/>
 		<KEYPAD/>
 		<ALPHANUMERIC/>
 	</enum>
-	<class path="flash.utils.IDataInput" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/utils/IDataInput.hx" extern="1" interface="1">
+	<class path="flash.utils.IDataInput" params="" file="/usr/lib/haxe/std/flash/utils/IDataInput.hx" extern="1" interface="1">
 		<bytesAvailable public="1" set="null"><t path="UInt"/></bytesAvailable>
 		<endian public="1"><e path="flash.utils.Endian"/></endian>
 		<objectEncoding public="1"><t path="UInt"/></objectEncoding>
@@ -3788,7 +3788,7 @@
 		<readUnsignedInt public="1" set="method"><f a=""><t path="UInt"/></f></readUnsignedInt>
 		<readUnsignedShort public="1" set="method"><f a=""><t path="UInt"/></f></readUnsignedShort>
 	</class>
-	<class path="flash.utils.IDataOutput" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/utils/IDataOutput.hx" extern="1" interface="1">
+	<class path="flash.utils.IDataOutput" params="" file="/usr/lib/haxe/std/flash/utils/IDataOutput.hx" extern="1" interface="1">
 		<endian public="1"><e path="flash.utils.Endian"/></endian>
 		<objectEncoding public="1"><t path="UInt"/></objectEncoding>
 		<writeBoolean public="1" set="method"><f a="value">
@@ -3843,7 +3843,7 @@
 	<e path="Void"/>
 </f></writeUnsignedInt>
 	</class>
-	<class path="flash.utils.ByteArray" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/utils/ByteArray.hx" extern="1">
+	<class path="flash.utils.ByteArray" params="" file="/usr/lib/haxe/std/flash/utils/ByteArray.hx" extern="1">
 		<implements path="flash.utils.IDataInput"/>
 		<implements path="flash.utils.IDataOutput"/>
 		<defaultObjectEncoding public="1" static="1"><t path="UInt"/></defaultObjectEncoding>
@@ -3937,11 +3937,11 @@
 </f></writeUnsignedInt>
 		<new public="1" set="method"><f a=""><e path="Void"/></f></new>
 	</class>
-	<enum path="flash.utils.Endian" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/flash/utils/Endian.hx">
+	<enum path="flash.utils.Endian" params="" file="/usr/lib/haxe/std/flash/utils/Endian.hx">
 		<LITTLE_ENDIAN/>
 		<BIG_ENDIAN/>
 	</enum>
-	<class path="haxe.Log" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/haxe/Log.hx">
+	<class path="haxe.Log" params="" file="/usr/lib/haxe/std/haxe/Log.hx">
 		<trace public="1" set="dynamic" line="29" static="1"><f a="v:?infos">
 	<d/>
 	<t path="haxe.PosInfos"/>
@@ -3953,7 +3953,7 @@
 	<e path="Void"/>
 </f></setColor>
 	</class>
-	<typedef path="haxe.PosInfos" params="" file="/Applications/FDT 5.app/Contents/FDT5/haxe/haxe-2.09-osx/std/haxe/PosInfos.hx"><a>
+	<typedef path="haxe.PosInfos" params="" file="/usr/lib/haxe/std/haxe/PosInfos.hx"><a>
 	<methodName><c path="String"/></methodName>
 	<lineNumber><c path="Int"/></lineNumber>
 	<fileName><c path="String"/></fileName>

@@ -1,3 +1,6 @@
+package;
+
+
 import flash.display.Stage;
 import flash.ui.Keyboard;
 
